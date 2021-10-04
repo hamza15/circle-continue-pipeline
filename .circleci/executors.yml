@@ -1,0 +1,11 @@
+executors:
+  linux:
+    docker:
+      - image: cimg/base:2020.01
+  windows:
+    docker:
+      - image: cimg/base:2020.01
+  custom-node:
+    docker:
+      - image: circleci/node:latest
+      - image: ruby:latest
